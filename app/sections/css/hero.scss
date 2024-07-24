@@ -1,0 +1,41 @@
+#hero {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    margin-top: 10vh;
+
+    #hero-header {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        width: 100%;
+        height: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: 'Bungee Shade', cursive;
+
+        h1 {
+            color: rgb(167, 110, 110);
+            text-shadow: 5px 5px rgb(255, 255, 255);
+        }
+    }
+
+    #hero-game {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+        margin-top: 10vh;
+
+        img {
+            display: flex;
+            position: relative;
+            height: 80%;
+        }
+    }
+}
