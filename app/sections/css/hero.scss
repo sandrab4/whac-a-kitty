@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee Shade');
+
 #hero {
     display: flex;
     position: relative;
@@ -8,9 +10,8 @@
     #hero-header {
         display: flex;
         position: fixed;
-        justify-content: center;
         width: 100%;
-        height: 10%;
+        height: 5%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -23,19 +24,37 @@
         }
     }
 
-    #hero-game {
+    #hero-score {
         display: flex;
         position: fixed;
+        width: 100%;
+        height: 20%;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 80%;
-        margin-top: 10vh;
+        font-size: 20px;
+        font-family: 'Bungee Shade', cursive;
+    }
+
+    #hero-game {
+        width: 540px;
+        height: 540px;
+        background-color: rgb(184, 155, 128);
+        margin: 0 500px;
+        margin-top: 15vh;
+        display: flex;
+        flex-wrap: wrap;
+        background-size: cover;
+        border: 2px solid white;
+        border-radius: 25px;
+
+        div {
+            width: 180px; 
+            height: 180px;
+        }
 
         img {
-            display: flex;
-            position: relative;
-            height: 80%;
+            width: 150px;
         }
-    }
-}
+    };
+};
